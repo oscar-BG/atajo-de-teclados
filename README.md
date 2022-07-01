@@ -63,6 +63,25 @@ seleccionar el bloque de codigo + **ALT + flecha abajo o flecha arriba**
 
 **Ctrl + Shift + Alt**
 
+## Multi cursores
+
+*Para escribir en multiples lineas al mismo tiempo utilizar el comando*
+
+**Ctrl + Alt + Flecha abajo / Flecta arriba**
+ó
+**Ctrl + Shift + Flecha abajo / Fecha arriba**
+
+## Multiples cursores en lugares especificos
+
+*Puedes crear multiples cursores en los lugares especifcos de tu codigo con el comando*
+
+**Alt + seleccionar**
+
+## Renplazar etiquetas
+*Si quieres remplazar una etiqueta de html, primero selecciona la etiqueta y con el comando Ctrl + D se seleccionar las etiquetas similares para editarlas*
+
+**Ctrl + D**
+
 
 
 <!-- Para tachar una letra ~~texto~~ -->
@@ -72,6 +91,4 @@ seleccionar el bloque de codigo + **ALT + flecha abajo o flecha arriba**
 * Item 1
     * item 1.1
 1. item 1
-    1. item -->
-    
-
+    1. item -->    
