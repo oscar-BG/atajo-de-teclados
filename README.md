@@ -83,7 +83,74 @@ seleccionar el bloque de codigo + **ALT + flecha abajo o flecha arriba**
 **Ctrl + D**
 
 
+## Movernos a una liena especifica
 
+*Si queremos mover en una linea especifica del documento, solo tenemos que teclear el siguiente comando*
+
+**Ctrl + G**
+
+*Abrira una pequeña ventana donde colocaremos la linea a donde queremos movernos*
+
+![imagen](imagenes/movernos-a-una-linea.png)
+
+## Snippets básicos
+
+*Para crear un snippets tecleamos el comando*
+
+**Ctrl Shift + P**
+
+*Nos mostrara la siguiente ventana y escribimos*
+
+![snippets](imagenes/snippet.png)
+
+*Seleccionamos la primera opción que es Configure User Snippets, cambiara nuestra ventana*
+
+![seleccionar-snippets](imagenes/snippet-select.png)
+
+*Escribimos el lenguaje de programación de la que queremos crear el snippets y la seleccionamos*
+
+*Nos mostrara un ejemplo de como podemos crear nuestro snippets*
+
+![ejemplo-snippets](imagenes/ejemplo-snippet.png)
+
+*Vamos a crear un snippets que nos cree una función debajo de nuestro ejemplo*
+
+```json
+{
+    //Nombre para identificarlo
+	"crear funcion":{
+		//abreviatura para llamar a nuestro snippet
+		"prefix": "fun",
+
+		//Lo que vamos a crear con nuestro snippet
+		"body": [
+			"function object () {}"
+		],
+		//Descripción de lo que hace nuestro snippets
+		"description": "Crea una función en javascript"
+
+
+	}
+}
+```
+
+*Para ocupar nuestro snippets nos vamos a un documento de javascript y escribimos solo la abreviatura del snippet*
+
+![crear-snippets](imagenes/crear-snippet.png)
+
+*Al escribir la abreviatura de nuestro snippets ya nos muestra una sugerencia que es el snippets que creamos y viene con una pequeña descripción que colocamos, solo damos TAB para terminar*
+
+![crear-funcion](imagenes/crear-funcion.png)
+
+*Y tenemos nuestra función creada, esto lo podemos realizar con codigo que regularmente utilizamos para hacer la tarea mas facil*
+
+## Otros comandos de ayuda
+
+*Normalmente el nuestro codigo se muestra en una sola linea y aveces sale fuera de nuestra pantalla, para que nuestro codigo haga un salto de linea y pueda verse en toda la pantalla ocupamos el comando*
+
+**Alt + Z**
+
+*Si queremos que nuestro codigo se siga mostrando en una sola linea, ocupamos el mismo comando para cambiar la vista*
 <!-- Para tachar una letra ~~texto~~ -->
 
 <!-- crear listas

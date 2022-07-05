@@ -12,3 +12,5 @@ let numero4
 
 numero1
 numero1
+
+function object (){}
