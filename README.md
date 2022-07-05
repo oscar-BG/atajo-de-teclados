@@ -176,6 +176,11 @@ seleccionar el bloque de codigo + **ALT + flecha abajo o flecha arriba**
 *La siguiente opción es la posición donde se va a colocar nuestro segundo TAB*
 * $2
 
+## Otros comandos de ayuda
+
+*Normalmente el nuestro codigo se muestra en una sola linea y aveces sale fuera de nuestra pantalla, para que nuestro codigo haga un salto de linea y pueda verse en toda la pantalla ocupamos el comando*
+
+
 **Alt + Z**
 
 *Si queremos que nuestro codigo se siga mostrando en una sola linea, ocupamos el mismo comando para cambiar la vista*
