@@ -148,6 +148,34 @@ seleccionar el bloque de codigo + **ALT + flecha abajo o flecha arriba**
 
 *Normalmente el nuestro codigo se muestra en una sola linea y aveces sale fuera de nuestra pantalla, para que nuestro codigo haga un salto de linea y pueda verse en toda la pantalla ocupamos el comando*
 
+## Snippets personalizados
+
+*Tenemos opciones que nos ayudaran a personalizar nuestros snippets y darles un mejor formato, como el siguiente ejemplo*
+
+```json
+{
+    "crear funcion":{
+		"prefix": "fun",
+		"body": [
+			"function ${1:object} ($2){",
+			"",
+			"}$3"
+		],
+		"description": "Crea una función en javascript"
+
+
+	}
+}
+```
+*Tenemos las siguientes opciones*
+
+*EL 1 indica el primer TAB y lo que hace es pocisionar el cursos sobre el elemento para poder cambiarle de nombre*
+
+* $1{1:label}
+
+*La siguiente opción es la posición donde se va a colocar nuestro segundo TAB*
+* $2
+
 **Alt + Z**
 
 *Si queremos que nuestro codigo se siga mostrando en una sola linea, ocupamos el mismo comando para cambiar la vista*
